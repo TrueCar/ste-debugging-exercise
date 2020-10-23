@@ -1,0 +1,26 @@
+{
+  "name": "ste-debugging-exercise",
+  "version": "1.0.0",
+  "description": "Cypress iSTE interview debugging exercise",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^4.1.5",
+    "@types/faker": "^4.1.12",
+    "cypress": "^5.4.0",
+    "faker": "^4.1.0",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.9.7",
+    "webpack": "^4.44.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrueCar/ste-debugging-exercise.git"
+  },
+  "author": "Nataliia Zarichna",
+  "license": "ISC",
+  "homepage": "https://github.com/TrueCar/ste-debugging-exercise#readme"
+}
