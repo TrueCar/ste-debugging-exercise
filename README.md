@@ -5,7 +5,7 @@
 1. Clone the repository
 
 ```
-git clone git@github.com:gp-natali/cypress-debugging.git
+git clone git@github.com:TrueCar/ste-debugging-exercise.git
 ```
 
 2. Step into repository directory
