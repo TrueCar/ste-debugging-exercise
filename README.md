@@ -1,6 +1,6 @@
 # cypress-debugging
 
-## Installation instructions for MacOS
+## Installation instructions:
 
 1. Clone the repository
 
@@ -18,6 +18,12 @@ cd ste-debugging-exercise/
 
 4. Run Cypress
 
+For Mac:
 ```
 ./node_modules/.bin/cypress open
+```
+
+For Windows:
+```
+.\node_modules\.bin\cypress open
 ```
