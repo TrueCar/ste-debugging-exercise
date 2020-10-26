@@ -1,5 +1,13 @@
 # cypress-debugging
 
+The purpose of this project is to verify test automation and debugging skills of a STE candidate.
+
+
+Please pull down the repo and install all the required dependencies.
+You should be able to run the Cypress (it should open Cypress test runner on your machine).
+Please also have your favorite IDE ready to be able to write test code in Javascript. 
+
+
 ## Installation instructions:
 
 1. Clone the repository
