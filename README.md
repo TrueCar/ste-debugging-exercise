@@ -1,4 +1,4 @@
-# cypress-debugging
+# STE debugging exercise
 
 The purpose of this project is to verify test automation and debugging skills of a STE candidate.
 
