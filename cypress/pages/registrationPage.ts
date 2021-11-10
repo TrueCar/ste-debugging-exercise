@@ -14,10 +14,13 @@ const registrationPage = {
     cy.get("[data-test='registrationCreatePasswordConfirmInput']").type(
       testProfileData.password
     );
+    cy.get("[data-test='checkboxFieldInput']").click({force: true});
+
     cy.get("[data-test='registrationCreatePasswordButton']").click();
     cy.get("[data-test='registrationNameFormInputField']").type(
       testProfileData.first_name + " " + testProfileData.last_name
     );
+    cy.get("[data-test='registrationNameFormNextButton']").click();
 
     cy.get("[data-test='registrationPhoneFormNext']").click();
     cy.get("[data-test='registrationAddressFormAddressField']").type(

@@ -7,7 +7,7 @@
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^4.1.5",
     "@types/faker": "^4.1.12",
-    "cypress": "^5.4.0",
+    "cypress": "^9.0.0",
     "faker": "^4.1.0",
     "ts-loader": "^6.2.2",
     "typescript": "^3.9.7",
