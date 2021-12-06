@@ -33,7 +33,7 @@ describe("TrueCar flow", function () {
     cy.get("[data-test='pageIsInteractive']");
     cy.get("[data-test='nextCta']").click();
 
-    cy.get("[data-test='vehicleHeaderTruepriceCtaButton]", {timeout: 100000}).click();
+    cy.get("[data-test='bxReviewVehicleImageTablet]").find("[data-test='vehicleHeaderTruepriceCtaButton']", {timeout: 20000}).click();
 
     registrationPage.fillOutRegistrationForm().as("testProfileData");
     cy.intercept("POST", "abp/api/consumers/builds/**", {statusCode: 200});
